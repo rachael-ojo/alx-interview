@@ -14,5 +14,8 @@ def pascal_triangle(n):
     
     return triangle
 
-# Example usage:
-print(pascal_triangle(5))
+# Example test cases
+print(pascal_triangle(5))  # Expected: [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
+print(pascal_triangle(0))  # Expected: []
+print(pascal_triangle(1))  # Expected: [[1]]
+print(pascal_triangle(2))  # Expected: [[1], [1, 1]]
